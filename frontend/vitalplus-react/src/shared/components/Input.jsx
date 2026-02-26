@@ -3,7 +3,7 @@ import '../../styles/global.css';
 
 export default function Input({label, type = "text", ...props}){
     return (
-      <div className="w-[320px]">
+      <div className="w-[240px]">
         {/* Label */}
         {label && (
           <label
@@ -52,8 +52,8 @@ export default function Input({label, type = "text", ...props}){
             border
             border--color-border
             px-4
-            text-base
-            
+            text-sm
+            bg-white
             focus:outline-none
             focus:ring-2
             focus:ring-[var(--color-border)]

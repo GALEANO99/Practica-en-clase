@@ -1,4 +1,5 @@
 [
+
     {
         "id": "C.C",
         "label": "Cedula de ciudadania"
@@ -18,5 +19,6 @@
         "id": "PEP",
         "label": " Permiso especial de permanencia"
     }
+
 
 ]

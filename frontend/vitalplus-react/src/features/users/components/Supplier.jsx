@@ -4,11 +4,14 @@ import "../../../styles/semantic.css";
 
 export default function ProveedorForm(){
     return (
-        <div className="min-h-screen gap-6 flex items-center justify-center ">
+        <div className="
+        min-h-screen gap-6 flex items-center justify-center bg-contain bg-center bg-no-repeat" 
+        style={{ backgroundImage:"url(../src/assets/logo.png)"}}>
+        
             {/* headear de la pagina */}
             {/*  */}
             {/* Formulario */}
-        <div className="flex flex-col gap-4 flex-1">
+        <div className="flex flex-col gap-2 flex-1">
             
             <Input
                     label="Nombre proveedor"
@@ -29,7 +32,7 @@ export default function ProveedorForm(){
 
         {/* columna 2  */}
 
-        <div className="flex flex-col gap-4 flex-1">
+        <div className="flex flex-col gap-2 flex-1">
             
             <Input
                     label="NIT"
@@ -49,7 +52,7 @@ export default function ProveedorForm(){
         </div>
 
         {/* columna 3 */}
-        <div className="flex flex-col gap-4 flex-1">
+        <div className="flex flex-col gap-2 flex-1">
             
             <Input
                     label="Razon social"
@@ -61,7 +64,8 @@ export default function ProveedorForm(){
                     type="email"
                     placeholder="Ingrese el correo electronico"
                 />
-                    
+                <br>
+                </br>    
         
         </div>
         </div>

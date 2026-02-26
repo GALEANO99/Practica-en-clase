@@ -30,12 +30,14 @@ export default function Select({
                 "
             >
 
-            <option value="Seleccione un tipo de documento"> </option>
+            <option text="white" value="" >Seleccione un tipo de documento </option>
             {options.map((option)=> ( 
                 <option key = {option.id} value={option.id}>
                 {option.label}
             </option>
-            ))};
+                ))
+            
+            };
 
             </select>
 

@@ -11,8 +11,8 @@
     /* BRAND */
     --color-brand: var(--color-primary-700);
     --color-brand-soft: var(--color-primary-300);
-    --color-border: var(--color-primary-400);
-    --color-border-strong: var(--color-primary-700);
-
-
+    --color-brand-hover: var(--color-primary-900);
+    --color-text-secundary: var(--color-white);
 }
+
+

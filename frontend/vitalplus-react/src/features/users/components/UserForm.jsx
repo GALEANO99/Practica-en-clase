@@ -1,20 +1,17 @@
 import Input from "@/shared/components/Input";
 import Button from "@/shared/components/Button";
 import Select from "@/shared/components/Select";
-// import SelectService from "@/features/users/components/services/" 
 import { getDocumentTypes } from "../services/selectService";
 import { useEffect, useState } from "react";
 
 export default function UserForm(){
 
-    
         const[documentTypes, setDocumentTypes] = useState();
 
     useEffect(()=> {
         getDocumentTypes().then(setDocumentTypes);
     },[])
     
-
     // const handleNameChange = (e) => {
     //     console.log("Nombre del usuario: " +  e.target.value)
     // };
@@ -63,7 +60,6 @@ export default function UserForm(){
                         label="Tipos de documento"
                         name="documentTypes" 
                         options={documentTypes}
-                        
                     > </Select>
 
 

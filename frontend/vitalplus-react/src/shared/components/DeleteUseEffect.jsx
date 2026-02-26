@@ -55,16 +55,15 @@ import { useEffect, useState } from "react";
 function DeleteUserEffect (){
 
     const [ count, setCount] = useState(0);
-    const [message, setMessage] = useState(" contando ");
+    const [message, setMessage] = useState("contando");
 
     useEffect(() => {
-        setMessage(` El contador cambio a ${count}`);
+        setMessage(`El contador cambio a ${count} `);
     },[count]);
 
     return( 
     <>
         <h2>{ count }</h2>
-
         <p>{message}</p>
 
         <button  className="border border-border bg-brand rounded-md " onClick={()=> setCount(count + 1)}> 

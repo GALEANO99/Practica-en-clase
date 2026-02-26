@@ -1,6 +1,6 @@
 export async function getDocumentTypes () {
-    const response = await fetch ("@data/selects/documentTypes.jscon");
+    const response = await fetch("src/data/selects/documentTypes.json");
 
-    return response.jason();
+    return response.json();
     
 }
